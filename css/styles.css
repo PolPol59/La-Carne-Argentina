@@ -55,6 +55,14 @@ main {
   grid-area: presentacion;
 }
 
+
+h2 {
+    font-size: 4em;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    }
+
+
 .carne{
   grid-area: carne;
   display: flex;
@@ -68,19 +76,6 @@ main {
 } 
 
 
-h2 {
-    font-size: 4em;
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-}
-
-
-.texto-equipo {
-    padding-top: 8em;
-    display: flex;
-    font-size: 2em;
-    font-family: "Dancing Script", cursive;
-}
 
 .equipo {
     grid-area: equipo;
