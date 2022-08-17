@@ -37,21 +37,65 @@ header ul {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: ". presentacion .";
+  display: grid;
+  grid-row-gap: 2em;
+  grid-column-gap: 1em;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    ". presentacion ."
+    "carne equipo carta";
 }
 
 .presentacion {
-    padding-top: 2em;
+  padding-top: 1em;
   font-size: 3em;
   font-family: "Dancing Script", cursive;
-  text-align: center;
   font-weight: 700;
   grid-area: presentacion;
 }
 
-p {
-    grid-area: p;
+.carne{
+  grid-area: carne;
+  display: flex;
+  margin-left: 0.5em;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 600;
+  background-image: url(../assets/img/carne.jpg);
+  background-position: center;
+} 
+
+
+h2 {
+    font-size: 4em;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
 }
+
+
+.texto-equipo {
+    padding-top: 8em;
+    display: flex;
+    font-size: 2em;
+    font-family: "Dancing Script", cursive;
+}
+
+.equipo {
+    grid-area: equipo;
+    background-image: url(../assets/img/equipo.jpg);
+    background-size: cover;
+    font-weight: 700;
+}
+
+
+.carta {
+    grid-area: carta;
+    background-image: url(../assets/img/menu.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    margin-right: 0.5em;
+}
+
+
