@@ -73,7 +73,29 @@ h2 {
   font-weight: 600;
   background-image: url(../assets/img/carne.jpg);
   background-position: center;
+  cursor: pointer;
+  width: 35em;
+  height: 35em;
+  transition: height 1.5s, width 1.5s;
+
+  animation-name: carne-animacion;
+  animation-duration: 0.7s;
+  animation-delay: 0s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
 } 
+
+@keyframes carne-animacion {
+  0% {
+ 
+    transform: translate(0, 20em);
+  }
+}
+.carne:hover {
+height: 40em;
+width: 40em;
+}
 
 
 
@@ -82,6 +104,28 @@ h2 {
     background-image: url(../assets/img/equipo.jpg);
     background-size: cover;
     font-weight: 700;
+    cursor: pointer;
+    width: 35em;
+    height: 35em;
+    transition: height 1.5s, width 1.5s;
+
+    animation-name: equipo-animacion;
+    animation-duration: 0.7s;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+}
+
+@keyframes equipo-animacion {
+  0% {
+    transform:translate(0, 20em);
+  }
+}
+
+.equipo:hover {
+  height: 40em;
+  width: 40em;
 }
 
 
@@ -91,6 +135,35 @@ h2 {
     background-size: cover;
     background-position: bottom;
     margin-right: 0.5em;
+    cursor: pointer;
+    width: 35em;
+    height: 35em;
+    transition: height 1.5s, width 1.5s;
+
+    animation-name: carta-animacion;
+    animation-duration: 0.7s;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
 }
 
+@keyframes carta-animacion {
+  0% {
+    transform: translate(0, 20em);
+  }
+}
+
+.carta:hover {
+  height: 40em;
+  width: 40em;
+}
+
+footer {
+  text-align: center;
+  font-size: 2em;
+  background-image: linear-gradient(to bottom, #660708, #A4161A);
+  font-family: "Dancing Script", cursive;
+  background-size: cover;
+}
 
