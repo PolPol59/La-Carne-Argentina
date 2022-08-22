@@ -7,7 +7,7 @@
 }
 
 header {
-  background-image: linear-gradient(to bottom, #660708, #A4161A);
+  background-image: linear-gradient(to bottom, #660708, #a4161a);
   color: white;
   font-family: "Dancing Script", cursive;
 }
@@ -55,15 +55,13 @@ main {
   grid-area: presentacion;
 }
 
-
 h2 {
-    font-size: 4em;
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    }
+  font-size: 4em;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
 
-
-.carne{
+.carne {
   grid-area: carne;
   display: flex;
   margin-left: 0.5em;
@@ -74,6 +72,7 @@ h2 {
   background-image: url(../assets/img/carne.jpg);
   background-position: center;
   cursor: pointer;
+
   width: 35em;
   height: 35em;
   transition: height 1.5s, width 1.5s;
@@ -84,42 +83,40 @@ h2 {
   animation-iteration-count: initial;
   animation-timing-function: ease-in;
   animation-direction: normal;
-} 
+}
 
 @keyframes carne-animacion {
   0% {
- 
     transform: translate(0, 20em);
   }
 }
 .carne:hover {
-height: 40em;
-width: 40em;
+  height: 40em;
+  width: 40em;
 }
 
-
-
 .equipo {
-    grid-area: equipo;
-    background-image: url(../assets/img/equipo.jpg);
-    background-size: cover;
-    font-weight: 700;
-    cursor: pointer;
-    width: 35em;
-    height: 35em;
-    transition: height 1.5s, width 1.5s;
+  grid-area: equipo;
+  background-image: url(../assets/img/equipo.jpg);
+  background-size: cover;
+  font-weight: 700;
+  cursor: pointer;
 
-    animation-name: equipo-animacion;
-    animation-duration: 0.7s;
-    animation-delay: 0s;
-    animation-iteration-count: initial;
-    animation-timing-function: ease-in;
-    animation-direction: normal;
+  width: 35em;
+  height: 35em;
+  transition: height 1.5s, width 1.5s;
+
+  animation-name: equipo-animacion;
+  animation-duration: 0.7s;
+  animation-delay: 0s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
 }
 
 @keyframes equipo-animacion {
   0% {
-    transform:translate(0, 20em);
+    transform: translate(0, 20em);
   }
 }
 
@@ -128,24 +125,24 @@ width: 40em;
   width: 40em;
 }
 
-
 .carta {
-    grid-area: carta;
-    background-image: url(../assets/img/menu.jpeg);
-    background-size: cover;
-    background-position: bottom;
-    margin-right: 0.5em;
-    cursor: pointer;
-    width: 35em;
-    height: 35em;
-    transition: height 1.5s, width 1.5s;
+  grid-area: carta;
+  background-image: url(../assets/img/menu.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  margin-right: 0.5em;
+  cursor: pointer;
+  
+  width: 35em;
+  height: 35em;
+  transition: height 1.5s, width 1.5s;
 
-    animation-name: carta-animacion;
-    animation-duration: 0.7s;
-    animation-delay: 0s;
-    animation-iteration-count: initial;
-    animation-timing-function: ease-in;
-    animation-direction: normal;
+  animation-name: carta-animacion;
+  animation-duration: 0.7s;
+  animation-delay: 0s;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
 }
 
 @keyframes carta-animacion {
@@ -162,8 +159,7 @@ width: 40em;
 footer {
   text-align: center;
   font-size: 2em;
-  background-image: linear-gradient(to bottom, #660708, #A4161A);
+  background-image: linear-gradient(to bottom, #660708, #a4161a);
   font-family: "Dancing Script", cursive;
   background-size: cover;
 }
-
