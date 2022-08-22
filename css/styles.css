@@ -72,11 +72,9 @@ h2 {
   background-image: url(../assets/img/carne.jpg);
   background-position: center;
   cursor: pointer;
-
   width: 35em;
   height: 35em;
   transition: height 1.5s, width 1.5s;
-
   animation-name: carne-animacion;
   animation-duration: 0.7s;
   animation-delay: 0s;
@@ -101,11 +99,9 @@ h2 {
   background-size: cover;
   font-weight: 700;
   cursor: pointer;
-
   width: 35em;
   height: 35em;
   transition: height 1.5s, width 1.5s;
-
   animation-name: equipo-animacion;
   animation-duration: 0.7s;
   animation-delay: 0s;
@@ -132,11 +128,9 @@ h2 {
   background-position: bottom;
   margin-right: 0.5em;
   cursor: pointer;
-  
   width: 35em;
   height: 35em;
   transition: height 1.5s, width 1.5s;
-
   animation-name: carta-animacion;
   animation-duration: 0.7s;
   animation-delay: 0s;
