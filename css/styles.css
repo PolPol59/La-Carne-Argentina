@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #660708;
+  background-image: linear-gradient(to bottom, #660708, #A4161A);
   color: white;
   font-family: "Dancing Script", cursive;
 }
